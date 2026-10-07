@@ -4,735 +4,215 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>La Loge Corse · Loge partenaires Paris FC et Stade Français à Jean-Bouin</title>
-<meta name="description" content="La Loge Corse : la loge privée de 13 entreprises partenaires au Stade Jean-Bouin, pour les matchs à domicile du Paris FC et du Stade Français. Choisissez votre match et invitez vos proches.">
+<meta name="description" content="La Loge Corse : la loge privée de 13 entreprises partenaires au Stade Jean-Bouin, pour les matchs à domicile du Paris FC et du Stade Français. Choisissez votre match et inscrivez vos invités.">
 <link rel="canonical" href="https://lalogecorse.fr/">
 <meta name="theme-color" content="#071F4B">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="fr_FR">
-<meta property="og:site_name" content="La Loge Corse">
-<meta property="og:title" content="La Loge Corse · Jean-Bouin">
-<meta property="og:description" content="La loge privée des partenaires au Stade Jean-Bouin, pour les matchs du Paris FC et du Stade Français. Prochaine affiche : Stade Français vs Montpellier HR, sam. 10 oct. 2026 au Stade Jean-Bouin.">
-<meta property="og:url" content="https://lalogecorse.fr/">
-<meta property="og:image" content="https://lalogecorse.fr/assets/img/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-
+<link rel="icon" href="favicon.png">
+<meta property="og:title" content="La Loge Corse · Paris FC et Stade Français à Jean-Bouin">
+<meta property="og:description" content="Une loge privée, un esprit corse et treize entreprises partenaires.">
+<meta property="og:image" content="https://lalogecorse.fr/assets/img/paris-fc-jean-bouin.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=DM+Mono:wght@500&display=swap">
-<link rel="preload" as="image" href="assets/img/hero.webp">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Instrument+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"La Loge Corse","url":"https://lalogecorse.fr/","logo":"https://lalogecorse.fr/assets/img/la-loge-corse.webp","email":"jeromebrigato@lalogecorse.fr","sameAs":["https://fr.linkedin.com/showcase/la-loge-corse/"],"location":{"@type":"StadiumOrArena","name":"Stade Jean-Bouin","address":{"@type":"PostalAddress","streetAddress":"20-40 avenue du Général Sarrail","postalCode":"75016","addressLocality":"Paris","addressCountry":"FR"}}}
-</script>
 </head>
 <body>
 
-<header class="site">
-  <div class="wrap bar">
-    <a href="#top" class="brand" aria-label="La Loge Corse, accueil">
-      <span class="crests">
-        <img src="assets/img/paris-fc.webp" alt="Paris FC" width="33" height="34">
-        <span class="sep"></span>
-        <img src="assets/img/la-loge-corse.webp" alt="La Loge Corse" width="34" height="34" style="border-radius:6px;">
-      </span>
-      <span class="lockup">La Loge<br>Corse</span>
-    </a>
-    <nav class="primary" aria-label="Navigation principale">
-      <a class="navlink" href="#histoire">Notre histoire</a>
-      <a class="navlink" href="#calendrier">Calendrier</a>
-      <a class="navlink" href="#partenaires">Partenaires</a>
-      <a class="navlink" href="#infos">Infos pratiques</a>
-      <a class="navlink" href="#rejoindre">Nous rejoindre</a>
-    </nav>
-    <div class="header-actions">
-      <a class="btn btn-sky btn-sm" href="#reserver">Réserver</a>
-      <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileNav">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
-    </div>
-  </div>
-  <nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
-    <a href="#affiche">Prochaine affiche</a>
-    <a href="#histoire">Notre histoire</a>
+<div class="bar"><div class="wrap">
+  <strong>Prochain match · <span data-next="countdown">J-?</span></strong>
+  <span><span data-next="club"></span> vs <span data-next="opp"></span> · <span data-next="date"></span></span>
+  <a href="#calendrier">Inscrire mes invités →</a>
+</div></div>
+
+<header class="wrap site-header">
+  <a class="brand" href="#top">
+    <img src="assets/img/la-loge-corse.webp" alt="Logo La Loge Corse">
+    <span><span class="name">LÀ LOGE CORSE</span><span class="sub">Stade Jean-Bouin · 2026/2027</span></span>
+  </a>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#table">La table</a>
     <a href="#calendrier">Calendrier</a>
-    <a href="#reserver">Inscrire mes invités</a>
-    <a href="#partenaires">Partenaires</a>
+    <a href="#videos">Vidéos</a>
+    <a href="#rejoindre">Rejoindre</a>
     <a href="#infos">Infos pratiques</a>
-    <a href="#rejoindre">Nous rejoindre</a>
+    <a class="btn btn-pink" href="#calendrier">Inscrire mes invités</a>
   </nav>
 </header>
 
-<div id="top"></div>
-
-<main>
-  <section class="hero" id="hero">
-    <div class="wrap hero-inner">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Paris FC · Stade Français · Jean-Bouin · 2026/2027</span>
-          <h1>La loge<br><span class="accent">est à vous.</span></h1>
-          <p class="lede">Une loge privée, un esprit corse et 13 entreprises partenaires. Choisissez votre match au Stade Jean-Bouin, inscrivez vos invités et recevez votre invitation nominative.</p>
-          <div class="hero-ctas">
-            <a href="#reserver" class="btn btn-sky">Inscrire mes invités <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-            <a href="#calendrier" class="btn btn-white">Voir le calendrier</a>
-          </div>
-          <div class="hero-crest">
-            <img src="assets/img/la-loge-corse.webp" alt="" width="46" height="46">
-            <span>Benvenuti à Jean-Bouin.<br>La Corse a sa loge à Paris.</span>
-          </div>
-        </div>
-
-        <div class="ticket" id="affiche">
-          <span class="eyebrow">Prochaine affiche · <span id="nextDay">Top 14</span></span>
-          <div class="fixture">
-            <h3><span id="nextClub">Stade Français</span><br><span class="vs-word" id="nextOpponent">vs Montpellier HR</span></h3>
-            <div class="crest-vs">
-              <img id="nextHomeCrest" src="assets/img/stade-francais.svg" alt="" width="46" height="46">
-              <span class="vs-badge">VS</span>
-              <img class="crest" id="nextCrest"  alt="" hidden width="46" height="46" style="width:46px;height:46px"><span class="crest-txt" id="nextIni" aria-hidden="true" style="width:46px;height:46px;font-size:12px;background:var(--coral)">MHR</span>
-            </div>
-          </div>
-          <div class="perf"></div>
-          <div class="meta-grid">
-            <div><div class="label eyebrow">Rendez-vous</div><div class="value" id="nextWhen">sam. 10 oct.<br>14h30</div></div>
-            <div><div class="label eyebrow">Votre table</div><div class="value">La Loge Corse<br>Porte A</div></div>
-          </div>
-          <p class="tagline">Votre invitation nominative fait office de pass.</p>
-          <a href="#reserver" class="btn btn-sky btn-sm" style="margin-top:14px;width:100%">Réserver pour ce match</a>
-        </div>
-      </div>
-    </div>
-    <div class="hero-spacer"></div>
-  </section>
-  <div class="corse-rule" aria-hidden="true"></div>
-
-  <!-- ===================== Notre histoire ===================== -->
-  <section class="section-cream section-pad" id="histoire">
-    <div class="wrap">
-      <div class="story">
-        <div>
-          <div class="section-head">
-            <span class="eyebrow eyebrow-corse">Notre histoire</span>
-            <h2>Un bout de Corse<br><span class="accent">au cœur de Paris.</span></h2>
-            <p>La Loge Corse est née d’une idée simple : réunir, autour du sport, des chefs d’entreprise attachés à la Corse et à ses valeurs d’accueil. Chaque match à domicile devient une table ouverte où l’on reçoit clients, équipes et amis.</p>
-            <p>Au Stade Jean-Bouin, la loge accueille les partenaires lors des rencontres du Paris FC en Ligue 1 et du Stade Français Paris en rugby.</p>
-          </div>
-          <div class="values" aria-label="Nos valeurs">
-            <span>Hospitalité</span><span>Fidélité</span><span>Convivialité</span><span>Réseau</span>
-          </div>
-          <div class="founder">
-            <img src="assets/img/jerome-brigato.webp" alt="Jérôme Brigato" width="56" height="56" loading="lazy">
-            <div><div class="nm">Jérôme Brigato</div><div class="rl">Fondateur de La Loge Corse · Kalliste Partners</div></div>
-          </div>
-        </div>
-        <figure class="story-media">
-          <img src="assets/img/convivialite.webp" alt="Illustration : table corse, football et Méditerranée" width="1100" height="471" loading="lazy">
-          <figcaption>Convivialité, sport, Corse : la table est prête.</figcaption>
-        </figure>
-      </div>
-
-      <div class="stats">
-        <div class="stat"><div class="n">13</div><div class="l">entreprises partenaires</div></div>
-        <div class="stat"><div class="n">17</div><div class="l">matchs du Paris FC à domicile</div></div>
-        <div class="stat"><div class="n">13</div><div class="l">matchs du Stade Français annoncés</div></div>
-        <div class="stat"><div class="n">2</div><div class="l">clubs hôtes, un seul stade : Jean-Bouin</div></div>
-      </div>
-
-      <div class="gallery">
-        <figure><img src="assets/img/stade-jean-bouin.webp" alt="Le Stade Jean-Bouin" loading="lazy"><figcaption>Stade Jean-Bouin</figcaption></figure>
-        <figure><img src="assets/img/paris-fc-jean-bouin.webp" alt="Le Paris FC à Jean-Bouin" loading="lazy"><figcaption>Paris FC · Jean-Bouin</figcaption></figure>
-        <figure><video src="assets/video/bienvenue.mp4" poster="assets/img/loge-bienvenue.webp" muted loop playsinline controls preload="none" aria-label="Vidéo : Bienvenue à la Loge Corse"></video><figcaption>Bienvenue à la loge</figcaption></figure>
-      </div>
-
-      <div class="steps" id="principe">
-        <div class="step"><span class="num">01</span><h3>Choisir</h3><p>Repérez votre match dans le calendrier du Paris FC ou du Stade Français à Jean-Bouin.</p></div>
-        <div class="step"><span class="num">02</span><h3>Inviter</h3><p>Inscrivez vos invités selon votre formule, de 2 à 6 personnes, avec leurs coordonnées.</p></div>
-        <div class="step"><span class="num">03</span><h3>Recevoir</h3><p>Après validation, chaque invité reçoit son invitation nominative en PDF par e-mail.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== Calendrier ===================== -->
-  <section class="section-cream section-pad" id="calendrier" style="padding-top:20px">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow eyebrow-navy">Stade Jean-Bouin · Saison 2026/2027</span>
-        <h2>Le calendrier<br><span class="accent">de la loge.</span></h2>
-        <p>Tous les matchs à domicile au Stade Jean-Bouin. Choisissez votre affiche, puis inscrivez vos invités.</p>
-      </div>
-
-      <div class="tabs" role="tablist">
-        <button class="tab" role="tab" type="button" aria-selected="true" aria-controls="cal-pfc" id="tab-pfc">Paris FC <small>Ligue 1</small></button>
-        <button class="tab" role="tab" type="button" aria-selected="false" aria-controls="cal-sf" id="tab-sf">Stade Français <small>Rugby</small></button>
-      </div>
-
-      <div class="cal-panel" id="cal-pfc" role="tabpanel" aria-labelledby="tab-pfc">
-        <div class="cal-wrap">
-          <table class="cal">
-            <thead><tr><th>Journée</th><th>Affiche</th><th>Date</th><th class="ta-r">Invitations</th></tr></thead>
-            <tbody>
-<tr data-date="2026-08-30" data-club="Paris FC" data-opponent="OGC Nice" data-matchday="Ligue 1 · J2" data-day="dim. 30 août" data-time="15h00" data-crest="133712" data-ini="NIC" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J2</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · OGC Nice</span><img class="crest" data-crest="133712" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">NIC</span></span></td>
-  <td class="when">dim. 30 août 2026 · 15h00</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133712" data-name="OGC Nice">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-08-30">Réserver</a></td>
-</tr>
-<tr data-date="2026-09-12" data-club="Paris FC" data-opponent="Olympique Lyonnais" data-matchday="Ligue 1 · J4" data-day="sam. 12 sept." data-time="20h45" data-crest="133713" data-ini="OL" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J4</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Olympique Lyonnais</span><img class="crest" data-crest="133713" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">OL</span></span></td>
-  <td class="when">sam. 12 sept. 2026 · 20h45</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133713" data-name="Olympique Lyonnais">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-09-12">Réserver</a></td>
-</tr>
-<tr data-date="2026-09-19" data-club="Paris FC" data-opponent="RC Strasbourg" data-matchday="Ligue 1 · J5" data-day="sam. 19 sept." data-time="17h15" data-crest="133882" data-ini="RCS" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J5</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · RC Strasbourg</span><img class="crest" data-crest="133882" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">RCS</span></span></td>
-  <td class="when">sam. 19 sept. 2026 · 17h15</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133882" data-name="RC Strasbourg">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-09-19">Réserver</a></td>
-</tr>
-<tr data-date="2026-10-18" data-club="Paris FC" data-opponent="Stade Rennais FC" data-matchday="Ligue 1 · J7" data-day="dim. 18 oct." data-time="17h15" data-crest="133719" data-ini="SRF" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J7</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Stade Rennais FC</span><img class="crest" data-crest="133719" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">SRF</span></span></td>
-  <td class="when">dim. 18 oct. 2026 · 17h15</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133719" data-name="Stade Rennais FC">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-10-18">Réserver</a></td>
-</tr>
-<tr data-date="2026-11-01" data-club="Paris FC" data-opponent="AS Monaco" data-matchday="Ligue 1 · J9" data-day="dim. 1 nov." data-time="17h15" data-crest="133823" data-ini="ASM" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J9</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · AS Monaco</span><img class="crest" data-crest="133823" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">ASM</span></span></td>
-  <td class="when">dim. 1 nov. 2026 · 17h15</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133823" data-name="AS Monaco">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-11-01">Réserver</a></td>
-</tr>
-<tr data-date="2026-11-22" data-club="Paris FC" data-opponent="Angers SCO" data-matchday="Ligue 1 · J11" data-day="dim. 22 nov." data-time="15h00" data-crest="134709" data-ini="SCO" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J11</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Angers SCO</span><img class="crest" data-crest="134709" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">SCO</span></span></td>
-  <td class="when">dim. 22 nov. 2026 · 15h00</td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="134709" data-name="Angers SCO">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-11-22">Réserver</a></td>
-</tr>
-<tr data-date="2026-12-05" data-club="Paris FC" data-opponent="Le Mans FC" data-matchday="Ligue 1 · J13" data-day="sam. 5 déc." data-time="Horaire à confirmer" data-crest="133848" data-ini="LMF" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J13</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Le Mans FC</span><img class="crest" data-crest="133848" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">LMF</span></span></td>
-  <td class="when">sam. 5 déc. 2026 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133848" data-name="Le Mans FC">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2026-12-05">Réserver</a></td>
-</tr>
-<tr data-date="2027-01-02" data-club="Paris FC" data-opponent="Le Havre AC" data-matchday="Ligue 1 · J15" data-day="sam. 2 janv." data-time="Horaire à confirmer" data-crest="133862" data-ini="HAC" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J15</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Le Havre AC</span><img class="crest" data-crest="133862" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">HAC</span></span></td>
-  <td class="when">sam. 2 janv. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133862" data-name="Le Havre AC">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-01-02">Réserver</a></td>
-</tr>
-<tr data-date="2027-01-16" data-club="Paris FC" data-opponent="Toulouse FC" data-matchday="Ligue 1 · J16" data-day="sam. 16 janv." data-time="Horaire à confirmer" data-crest="133703" data-ini="TFC" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J16</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Toulouse FC</span><img class="crest" data-crest="133703" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">TFC</span></span></td>
-  <td class="when">sam. 16 janv. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133703" data-name="Toulouse FC">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-01-16">Réserver</a></td>
-</tr>
-<tr data-date="2027-01-30" data-club="Paris FC" data-opponent="AJ Auxerre" data-matchday="Ligue 1 · J18" data-day="sam. 30 janv." data-time="Horaire à confirmer" data-crest="134788" data-ini="AJA" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J18</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · AJ Auxerre</span><img class="crest" data-crest="134788" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">AJA</span></span></td>
-  <td class="when">sam. 30 janv. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="134788" data-name="AJ Auxerre">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-01-30">Réserver</a></td>
-</tr>
-<tr data-date="2027-02-13" data-club="Paris FC" data-opponent="ESTAC Troyes" data-matchday="Ligue 1 · J20" data-day="sam. 13 févr." data-time="Horaire à confirmer" data-crest="134789" data-ini="EST" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J20</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · ESTAC Troyes</span><img class="crest" data-crest="134789" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">EST</span></span></td>
-  <td class="when">sam. 13 févr. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="134789" data-name="ESTAC Troyes">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-02-13">Réserver</a></td>
-</tr>
-<tr data-date="2027-03-06" data-club="Paris FC" data-opponent="Stade Brestois 29" data-matchday="Ligue 1 · J23" data-day="sam. 6 mars" data-time="Horaire à confirmer" data-crest="133704" data-ini="SB29" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J23</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Stade Brestois 29</span><img class="crest" data-crest="133704" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">SB29</span></span></td>
-  <td class="when">sam. 6 mars 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133704" data-name="Stade Brestois 29">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-03-06">Réserver</a></td>
-</tr>
-<tr data-date="2027-03-13" data-club="Paris FC" data-opponent="FC Lorient" data-matchday="Ligue 1 · J24" data-day="sam. 13 mars" data-time="Horaire à confirmer" data-crest="133715" data-ini="FCL" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J24</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · FC Lorient</span><img class="crest" data-crest="133715" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">FCL</span></span></td>
-  <td class="when">sam. 13 mars 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133715" data-name="FC Lorient">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-03-13">Réserver</a></td>
-</tr>
-<tr data-date="2027-04-03" data-club="Paris FC" data-opponent="Paris Saint-Germain" data-matchday="Ligue 1 · J26" data-day="sam. 3 avr." data-time="Horaire à confirmer" data-crest="133714" data-ini="PSG" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J26</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Paris Saint-Germain</span><img class="crest" data-crest="133714" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">PSG</span></span></td>
-  <td class="when">sam. 3 avr. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133714" data-name="Paris Saint-Germain">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-04-03">Réserver</a></td>
-</tr>
-<tr data-date="2027-04-24" data-club="Paris FC" data-opponent="RC Lens" data-matchday="Ligue 1 · J29" data-day="sam. 24 avr." data-time="Horaire à confirmer" data-crest="133822" data-ini="RCL" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J29</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · RC Lens</span><img class="crest" data-crest="133822" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">RCL</span></span></td>
-  <td class="when">sam. 24 avr. 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133822" data-name="RC Lens">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-04-24">Réserver</a></td>
-</tr>
-<tr data-date="2027-05-08" data-club="Paris FC" data-opponent="LOSC Lille" data-matchday="Ligue 1 · J31" data-day="sam. 8 mai" data-time="Horaire à confirmer" data-crest="133711" data-ini="LOSC" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J31</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · LOSC Lille</span><img class="crest" data-crest="133711" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">LOSC</span></span></td>
-  <td class="when">sam. 8 mai 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133711" data-name="LOSC Lille">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-05-08">Réserver</a></td>
-</tr>
-<tr data-date="2027-05-22" data-club="Paris FC" data-opponent="Olympique de Marseille" data-matchday="Ligue 1 · J33" data-day="sam. 22 mai" data-time="Horaire à confirmer" data-crest="133707" data-ini="OM" data-home-img="assets/img/paris-fc.webp">
-  <td class="md">J33</td>
-  <td><span class="opp-cell"><img class="crest" src="assets/img/paris-fc.webp" alt="" width="26" height="26"><span class="opp">Paris FC · Olympique de Marseille</span><img class="crest" data-crest="133707" alt="" hidden width="26" height="26"><span class="crest-txt" aria-hidden="true">OM</span></span></td>
-  <td class="when">sam. 22 mai 2027 · <span class="tbc">horaire à confirmer</span></td>
-  <td class="ta-r"><button type="button" class="cal-cta squads-btn" data-team="133707" data-name="Olympique de Marseille">Effectifs</button><a class="cal-cta" href="#reserver" data-fix="pfc-2027-05-22">Réserver</a></td>
-</tr>
-            </tbody>
-          </table>
-        </div>
-        <button type="button" class="past-toggle">Afficher les matchs déjà joués</button>
-      </div>
-
-      <div class="cal-panel" id="cal-sf" role="tabpanel" aria-labelledby="tab-sf" hidden>
-        <div class="cal-wrap">
-          <table class="cal">
-            <thead><tr><th>Compétition</th><th>Affiche</th><th>Date</th><th class="ta-r">Invitations</th></tr></thead>
-            <tbody>
-<tr data-date="2026-10-10" data-club="Stade Français" data-opponent="Montpellier HR" data-matchday="Top 14" data-day="sam. 10 oct." data-time="14h30" data-ini="MHR" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Montpellier HR</span><span class="crest-txt" aria-hidden="true">MHR</span></span></td>
-  <td class="when">sam. 10 oct. 2026 · 14h30</td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2026-10-10">Réserver</a></td>
-</tr>
-<tr data-date="2026-10-31" data-club="Stade Français" data-opponent="Stade Rochelais" data-matchday="Top 14" data-day="sam. 31 oct." data-time="Horaire à confirmer" data-ini="SR" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Stade Rochelais</span><span class="crest-txt" aria-hidden="true">SR</span></span></td>
-  <td class="when">sam. 31 oct. 2026 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2026-10-31">Réserver</a></td>
-</tr>
-<tr data-date="2026-11-28" data-club="Stade Français" data-opponent="RC Vannes" data-matchday="Top 14" data-day="sam. 28 nov." data-time="Horaire à confirmer" data-ini="RCV" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · RC Vannes</span><span class="crest-txt" aria-hidden="true">RCV</span></span></td>
-  <td class="when">sam. 28 nov. 2026 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2026-11-28">Réserver</a></td>
-</tr>
-<tr data-date="2026-12-11" data-club="Stade Français" data-opponent="Northampton Saints" data-matchday="Champions Cup" data-day="ven. 11 déc." data-time="21h00" data-ini="NS" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Champions Cup</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Northampton Saints</span><span class="crest-txt" aria-hidden="true">NS</span></span></td>
-  <td class="when">ven. 11 déc. 2026 · 21h00</td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2026-12-11">Réserver</a></td>
-</tr>
-<tr data-date="2026-12-19" data-club="Stade Français" data-opponent="Stade Toulousain" data-matchday="Top 14" data-day="sam. 19 déc." data-time="Horaire à confirmer" data-ini="ST" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Stade Toulousain</span><span class="crest-txt" aria-hidden="true">ST</span></span></td>
-  <td class="when">sam. 19 déc. 2026 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2026-12-19">Réserver</a></td>
-</tr>
-<tr data-date="2027-01-02" data-club="Stade Français" data-opponent="Castres Olympique" data-matchday="Top 14" data-day="sam. 2 janv." data-time="Horaire à confirmer" data-ini="CO" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Castres Olympique</span><span class="crest-txt" aria-hidden="true">CO</span></span></td>
-  <td class="when">sam. 2 janv. 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-01-02">Réserver</a></td>
-</tr>
-<tr data-date="2027-01-09" data-club="Stade Français" data-opponent="Cardiff Rugby" data-matchday="Champions Cup" data-day="sam. 9 janv." data-time="21h00" data-ini="CR" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Champions Cup</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Cardiff Rugby</span><span class="crest-txt" aria-hidden="true">CR</span></span></td>
-  <td class="when">sam. 9 janv. 2027 · 21h00</td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-01-09">Réserver</a></td>
-</tr>
-<tr data-date="2027-02-20" data-club="Stade Français" data-opponent="Union Bordeaux-Bègles" data-matchday="Top 14" data-day="sam. 20 févr." data-time="Horaire à confirmer" data-ini="UBB" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Union Bordeaux-Bègles</span><span class="crest-txt" aria-hidden="true">UBB</span></span></td>
-  <td class="when">sam. 20 févr. 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-02-20">Réserver</a></td>
-</tr>
-<tr data-date="2027-03-20" data-club="Stade Français" data-opponent="Section Paloise" data-matchday="Top 14" data-day="sam. 20 mars" data-time="Horaire à confirmer" data-ini="SP" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Section Paloise</span><span class="crest-txt" aria-hidden="true">SP</span></span></td>
-  <td class="when">sam. 20 mars 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-03-20">Réserver</a></td>
-</tr>
-<tr data-date="2027-04-17" data-club="Stade Français" data-opponent="ASM Clermont" data-matchday="Top 14" data-day="sam. 17 avr." data-time="Horaire à confirmer" data-ini="ASM" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · ASM Clermont</span><span class="crest-txt" aria-hidden="true">ASM</span></span></td>
-  <td class="when">sam. 17 avr. 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-04-17">Réserver</a></td>
-</tr>
-<tr data-date="2027-04-24" data-club="Stade Français" data-opponent="Racing 92" data-matchday="Top 14" data-day="sam. 24 avr." data-time="Horaire à confirmer" data-ini="R92" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Racing 92</span><span class="crest-txt" aria-hidden="true">R92</span></span></td>
-  <td class="when">sam. 24 avr. 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-04-24">Réserver</a></td>
-</tr>
-<tr data-date="2027-05-15" data-club="Stade Français" data-opponent="RC Toulon" data-matchday="Top 14" data-day="sam. 15 mai" data-time="Horaire à confirmer" data-ini="RCT" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · RC Toulon</span><span class="crest-txt" aria-hidden="true">RCT</span></span></td>
-  <td class="when">sam. 15 mai 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-05-15">Réserver</a></td>
-</tr>
-<tr data-date="2027-06-05" data-club="Stade Français" data-opponent="Aviron Bayonnais" data-matchday="Top 14" data-day="sam. 5 juin" data-time="Horaire à confirmer" data-ini="AB" data-home-img="assets/img/stade-francais.svg">
-  <td class="md">Top 14</td>
-  <td><span class="opp-cell"><span class="crest-txt" aria-hidden="true">SF</span><span class="opp">Stade Français · Aviron Bayonnais</span><span class="crest-txt" aria-hidden="true">AB</span></span></td>
-  <td class="when">sam. 5 juin 2027 · <span class="tbc">date et horaire à confirmer</span></td>
-  <td class="ta-r"><a class="cal-cta" href="#reserver" data-fix="sf-2027-06-05">Réserver</a></td>
-</tr>
-            </tbody>
-          </table>
-        </div>
-        <button type="button" class="past-toggle">Afficher les matchs déjà joués</button>
-      </div>
-
-      <p class="cal-note">Dates et horaires communiqués par les clubs, susceptibles d’évoluer en cours de saison. Seuls les matchs joués au Stade Jean-Bouin sont proposés.</p>
-
-      <div class="squads" id="squads" hidden>
-        <div class="squads-head">
-          <div><span class="eyebrow eyebrow-coral">Effectifs</span><h3 id="squadsTitle">Effectifs</h3></div>
-          <button type="button" class="squads-close" id="squadsClose" aria-label="Fermer les effectifs">Fermer</button>
-        </div>
-        <div class="squads-body" id="squadsBody"></div>
-        <p class="cal-note">Effectifs et photos fournis par TheSportsDB. Les compositions officielles sont publiées par le club le jour du match.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== Réservation ===================== -->
-  <section class="section-cream section-pad" id="reserver" style="padding-top:20px">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow eyebrow-navy">Demande d’invitation · réservée aux partenaires</span>
-        <h2>Inscrivez<br><span class="accent">vos invités.</span></h2>
-        <p>Selon votre formule, vous pouvez inviter de 2 à 6 personnes par match. Pour chacune, indiquez nom, prénom, e-mail et téléphone : ces informations servent à préparer l’accueil à Jean-Bouin et à envoyer les invitations.</p>
-      </div>
-
-      <form class="invite-form" id="inviteForm" method="post" action="invitation.php" novalidate data-max="6">
-        <fieldset class="fs">
-          <legend>Le partenaire</legend>
-          <div class="fgrid">
-            <label><span class="lbl">Société <span class="req">*</span></span><input type="text" name="societe" required autocomplete="organization" maxlength="200"></label>
-            <label><span class="lbl">Votre nom et prénom <span class="req">*</span></span><input type="text" name="referent" required autocomplete="name" maxlength="200"></label>
-            <label><span class="lbl">Votre e-mail <span class="req">*</span></span><input type="email" name="referent_email" required autocomplete="email" maxlength="200"></label>
-            <label><span class="lbl">Votre téléphone <span class="req">*</span></span><input type="tel" name="referent_tel" required autocomplete="tel" maxlength="40"></label>
-            <label class="fspan"><span class="lbl">Match souhaité <span class="req">*</span></span>
-              <select name="match" id="matchSelect" required>
-                <option value="">Choisissez une affiche</option>
-<optgroup label="Paris FC · Ligue 1">
-<option data-date="2026-08-30" data-key="pfc-2026-08-30" value="Paris FC / OGC Nice (J2) · dim. 30 août 2026">J2 · Paris FC / OGC Nice · dim. 30 août 2026</option>
-<option data-date="2026-09-12" data-key="pfc-2026-09-12" value="Paris FC / Olympique Lyonnais (J4) · sam. 12 sept. 2026">J4 · Paris FC / Olympique Lyonnais · sam. 12 sept. 2026</option>
-<option data-date="2026-09-19" data-key="pfc-2026-09-19" value="Paris FC / RC Strasbourg (J5) · sam. 19 sept. 2026">J5 · Paris FC / RC Strasbourg · sam. 19 sept. 2026</option>
-<option data-date="2026-10-18" data-key="pfc-2026-10-18" value="Paris FC / Stade Rennais FC (J7) · dim. 18 oct. 2026">J7 · Paris FC / Stade Rennais FC · dim. 18 oct. 2026</option>
-<option data-date="2026-11-01" data-key="pfc-2026-11-01" value="Paris FC / AS Monaco (J9) · dim. 1 nov. 2026">J9 · Paris FC / AS Monaco · dim. 1 nov. 2026</option>
-<option data-date="2026-11-22" data-key="pfc-2026-11-22" value="Paris FC / Angers SCO (J11) · dim. 22 nov. 2026">J11 · Paris FC / Angers SCO · dim. 22 nov. 2026</option>
-<option data-date="2026-12-05" data-key="pfc-2026-12-05" value="Paris FC / Le Mans FC (J13) · sam. 5 déc. 2026">J13 · Paris FC / Le Mans FC · sam. 5 déc. 2026</option>
-<option data-date="2027-01-02" data-key="pfc-2027-01-02" value="Paris FC / Le Havre AC (J15) · sam. 2 janv. 2027">J15 · Paris FC / Le Havre AC · sam. 2 janv. 2027</option>
-<option data-date="2027-01-16" data-key="pfc-2027-01-16" value="Paris FC / Toulouse FC (J16) · sam. 16 janv. 2027">J16 · Paris FC / Toulouse FC · sam. 16 janv. 2027</option>
-<option data-date="2027-01-30" data-key="pfc-2027-01-30" value="Paris FC / AJ Auxerre (J18) · sam. 30 janv. 2027">J18 · Paris FC / AJ Auxerre · sam. 30 janv. 2027</option>
-<option data-date="2027-02-13" data-key="pfc-2027-02-13" value="Paris FC / ESTAC Troyes (J20) · sam. 13 févr. 2027">J20 · Paris FC / ESTAC Troyes · sam. 13 févr. 2027</option>
-<option data-date="2027-03-06" data-key="pfc-2027-03-06" value="Paris FC / Stade Brestois 29 (J23) · sam. 6 mars 2027">J23 · Paris FC / Stade Brestois 29 · sam. 6 mars 2027</option>
-<option data-date="2027-03-13" data-key="pfc-2027-03-13" value="Paris FC / FC Lorient (J24) · sam. 13 mars 2027">J24 · Paris FC / FC Lorient · sam. 13 mars 2027</option>
-<option data-date="2027-04-03" data-key="pfc-2027-04-03" value="Paris FC / Paris Saint-Germain (J26) · sam. 3 avr. 2027">J26 · Paris FC / Paris Saint-Germain · sam. 3 avr. 2027</option>
-<option data-date="2027-04-24" data-key="pfc-2027-04-24" value="Paris FC / RC Lens (J29) · sam. 24 avr. 2027">J29 · Paris FC / RC Lens · sam. 24 avr. 2027</option>
-<option data-date="2027-05-08" data-key="pfc-2027-05-08" value="Paris FC / LOSC Lille (J31) · sam. 8 mai 2027">J31 · Paris FC / LOSC Lille · sam. 8 mai 2027</option>
-<option data-date="2027-05-22" data-key="pfc-2027-05-22" value="Paris FC / Olympique de Marseille (J33) · sam. 22 mai 2027">J33 · Paris FC / Olympique de Marseille · sam. 22 mai 2027</option>
-</optgroup>
-<optgroup label="Stade Français Paris · rugby">
-<option data-date="2026-10-10" data-key="sf-2026-10-10" value="Stade Français / Montpellier HR (Top 14) · sam. 10 oct. 2026">Top 14 · Stade Français / Montpellier HR · sam. 10 oct. 2026</option>
-<option data-date="2026-10-31" data-key="sf-2026-10-31" value="Stade Français / Stade Rochelais (Top 14) · sam. 31 oct. 2026">Top 14 · Stade Français / Stade Rochelais · sam. 31 oct. 2026</option>
-<option data-date="2026-11-28" data-key="sf-2026-11-28" value="Stade Français / RC Vannes (Top 14) · sam. 28 nov. 2026">Top 14 · Stade Français / RC Vannes · sam. 28 nov. 2026</option>
-<option data-date="2026-12-11" data-key="sf-2026-12-11" value="Stade Français / Northampton Saints (Champions Cup) · ven. 11 déc. 2026">Champions Cup · Stade Français / Northampton Saints · ven. 11 déc. 2026</option>
-<option data-date="2026-12-19" data-key="sf-2026-12-19" value="Stade Français / Stade Toulousain (Top 14) · sam. 19 déc. 2026">Top 14 · Stade Français / Stade Toulousain · sam. 19 déc. 2026</option>
-<option data-date="2027-01-02" data-key="sf-2027-01-02" value="Stade Français / Castres Olympique (Top 14) · sam. 2 janv. 2027">Top 14 · Stade Français / Castres Olympique · sam. 2 janv. 2027</option>
-<option data-date="2027-01-09" data-key="sf-2027-01-09" value="Stade Français / Cardiff Rugby (Champions Cup) · sam. 9 janv. 2027">Champions Cup · Stade Français / Cardiff Rugby · sam. 9 janv. 2027</option>
-<option data-date="2027-02-20" data-key="sf-2027-02-20" value="Stade Français / Union Bordeaux-Bègles (Top 14) · sam. 20 févr. 2027">Top 14 · Stade Français / Union Bordeaux-Bègles · sam. 20 févr. 2027</option>
-<option data-date="2027-03-20" data-key="sf-2027-03-20" value="Stade Français / Section Paloise (Top 14) · sam. 20 mars 2027">Top 14 · Stade Français / Section Paloise · sam. 20 mars 2027</option>
-<option data-date="2027-04-17" data-key="sf-2027-04-17" value="Stade Français / ASM Clermont (Top 14) · sam. 17 avr. 2027">Top 14 · Stade Français / ASM Clermont · sam. 17 avr. 2027</option>
-<option data-date="2027-04-24" data-key="sf-2027-04-24" value="Stade Français / Racing 92 (Top 14) · sam. 24 avr. 2027">Top 14 · Stade Français / Racing 92 · sam. 24 avr. 2027</option>
-<option data-date="2027-05-15" data-key="sf-2027-05-15" value="Stade Français / RC Toulon (Top 14) · sam. 15 mai 2027">Top 14 · Stade Français / RC Toulon · sam. 15 mai 2027</option>
-<option data-date="2027-06-05" data-key="sf-2027-06-05" value="Stade Français / Aviron Bayonnais (Top 14) · sam. 5 juin 2027">Top 14 · Stade Français / Aviron Bayonnais · sam. 5 juin 2027</option>
-</optgroup>
-              </select>
-            </label>
-          </div>
-        </fieldset>
-
-        <fieldset class="fs">
-          <legend>Vos invités <span class="legend-note">(1 à 6 personnes selon votre formule)</span></legend>
-          <div id="guests"></div>
-          <button type="button" class="btn btn-ghost-navy btn-sm" id="addGuest">+ Ajouter un invité</button>
-        </fieldset>
-
-        <fieldset class="fs">
-          <legend>Précisions</legend>
-          <label class="fspan"><span class="lbl">Message (facultatif)</span><textarea name="message" rows="3" maxlength="2000"></textarea></label>
-          <label class="check"><input type="checkbox" name="consent" required> <span>J’atteste avoir l’accord de mes invités pour transmettre leurs coordonnées à La Loge Corse, utilisées uniquement pour l’organisation de cette réception, conformément à notre <a href="mentions-legales.html#confidentialite">politique de confidentialité</a>. <span class="req">*</span></span></label>
-          <!-- Champ piège anti-robots : laisser vide -->
-          <div class="hp" aria-hidden="true"><label>Ne pas remplir <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
-          <input type="hidden" name="ts" value="">
-        </fieldset>
-
-        <div class="form-actions">
-          <button type="submit" class="btn btn-sky">Envoyer la demande <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-          <p class="form-note">Votre demande est transmise à <a href="mailto:jeromebrigato@lalogecorse.fr">jeromebrigato@lalogecorse.fr</a> pour validation. Vous recevrez une confirmation par e-mail.</p>
-        </div>
-        <p class="form-error" id="formError" hidden role="alert"></p>
-      </form>
-    </div>
-  </section>
-
-  <!-- ===================== Partenaires ===================== -->
-  <section class="section-cream section-pad" id="partenaires" style="padding-top:20px">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow eyebrow-navy">L’écosystème de La Loge Corse</span>
-        <h2>Des partenaires<br><span class="accent">qui font équipe.</span></h2>
-        <p>13 entreprises font vivre la loge, match après match. Cliquez sur un logo pour découvrir le partenaire.</p>
-      </div>
-
-      <div class="logo-wall">
-<a href="https://www.kalliste-partners.com/" target="_blank" rel="noopener" title="Kalliste Partners"><img src="assets/img/logos/kalliste.webp" alt="Kalliste Partners" loading="lazy"></a>
-<a href="https://www.bme-group.com/businesses/bme-france/" target="_blank" rel="noopener" title="BME France"><img src="assets/img/logos/bme.webp" alt="BME France" loading="lazy"></a>
-<a href="https://busca.fr" target="_blank" rel="noopener" title="Busca"><img src="assets/img/logos/busca.webp" alt="Busca" loading="lazy"></a>
-<a href="https://elydan.eu" target="_blank" rel="noopener" title="Elydan"><img src="assets/img/logos/elydan.webp" alt="Elydan" loading="lazy"></a>
-<a href="https://citysecurite.com" target="_blank" rel="noopener" title="City Sécurité"><img src="assets/img/logos/citysecurite.webp" alt="City Sécurité" loading="lazy"></a>
-<a href="https://iepro.fr" target="_blank" rel="noopener" title="IE Pro"><img src="assets/img/logos/iepro.webp" alt="IE Pro" loading="lazy"></a>
-<a href="https://www.mc-groupe.com" target="_blank" rel="noopener" title="Groupe MC"><img src="assets/img/logos/groupemc.webp" alt="Groupe MC" loading="lazy"></a>
-<a href="https://mederreg.fr" target="_blank" rel="noopener" title="Mederreg"><img src="assets/img/logos/mederreg.webp" alt="Mederreg" loading="lazy"></a>
-<a href="https://futur-services.fr" target="_blank" rel="noopener" title="Futur Services"><img src="assets/img/logos/futurservices.webp" alt="Futur Services" loading="lazy"></a>
-<span class="lw" title="C.M.E"><img src="assets/img/logos/cme.webp" alt="C.M.E" loading="lazy"></span>
-<a href="https://www.zaloc.fr" target="_blank" rel="noopener" title="Zaloc"><img src="assets/img/logos/zaloc.webp" alt="Zaloc" loading="lazy"></a>
-<a href="https://braxton-im.com" target="_blank" rel="noopener" title="Braxton"><img src="assets/img/logos/braxton.webp" alt="Braxton" loading="lazy"></a>
-<a href="https://www.marline.fr" target="_blank" rel="noopener" title="Marline"><img src="assets/img/logos/marline.webp" alt="Marline" loading="lazy"></a>
-      </div>
-
-      <div class="host-card corse-texture">
-        <img src="assets/img/paris-fc.webp" alt="Paris FC" width="56" height="56">
-        <img src="assets/img/stade-francais.svg" alt="Stade Français Paris" width="56" height="56">
-        <div class="txt">
-          <span class="eyebrow">Clubs hôtes · Stade Jean-Bouin</span>
-          <h3>Paris FC et Stade Français Paris</h3>
-          <p>La Loge Corse se vit lors des matchs à domicile du Paris FC en Ligue 1 et du Stade Français Paris en rugby, au Stade Jean-Bouin.</p>
-        </div>
-        <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <a class="btn btn-white btn-sm" href="https://www.parisfc.fr/" target="_blank" rel="noopener">Paris FC <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
-          <a class="btn btn-ghost-light btn-sm" href="https://www.stade.fr/" target="_blank" rel="noopener">Stade Français <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
-        </div>
-      </div>
-
-      <div class="partners-grid">
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/kalliste.webp" alt="Logo Kalliste Partners" loading="lazy"></span><span class="p-tag">Partenaire fondateur</span></div>
-  <h4>Kalliste Partners</h4>
-  <p class="desc">La société de Jérôme Brigato, à l’origine de La Loge Corse et de son réseau de partenaires.</p>
-  <p class="p-contact">Jérôme Brigato<span class="role"> · fondateur de La Loge Corse</span></p>
-  <a class="p-link" href="https://www.kalliste-partners.com/" target="_blank" rel="noopener">Découvrir Kalliste Partners <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/bme.webp" alt="Logo BME France" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>BME France</h4>
-  <p class="desc">Branche française de BME, l’un des leaders européens de la distribution de matériaux de construction.</p>
-  <p class="p-contact">Olivier Touchais<span class="role"> · Managing Director</span></p>
-  <a class="p-link" href="https://www.bme-group.com/businesses/bme-france/" target="_blank" rel="noopener">Découvrir BME France <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/busca.webp" alt="Logo Busca" loading="lazy"></span><span class="p-tag">Partenaire · Groupe BME</span></div>
-  <h4>Busca</h4>
-  <p class="desc">Distributeur de matériaux de construction, de produits de VRD et de carrelage en Île-de-France.</p>
-  
-  <a class="p-link" href="https://busca.fr" target="_blank" rel="noopener">Découvrir Busca <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/elydan.webp" alt="Logo Elydan" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Elydan</h4>
-  <p class="desc">Conçoit et fabrique des systèmes de réseaux pour l’eau, l’assainissement, l’énergie, les télécoms et le gaz.</p>
-  
-  <a class="p-link" href="https://elydan.eu" target="_blank" rel="noopener">Découvrir Elydan <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/citysecurite.webp" alt="Logo City Sécurité" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>City Sécurité</h4>
-  <p class="desc">Sécurité privée 24h/24 : agents, rondiers, SSIAP, contrôle d’accès et vidéosurveillance.</p>
-  
-  <a class="p-link" href="https://citysecurite.com" target="_blank" rel="noopener">Découvrir City Sécurité <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/iepro.webp" alt="Logo IE Pro" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>IE Pro</h4>
-  <p class="desc">Spécialiste de la dépollution en Île-de-France : désamiantage, déplombage et dépollution des sols.</p>
-  
-  <a class="p-link" href="https://iepro.fr" target="_blank" rel="noopener">Découvrir IE Pro <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/groupemc.webp" alt="Logo Groupe MC" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Groupe MC</h4>
-  <p class="desc">Groupe réunissant des activités de rénovation énergétique et d’installation de bornes de recharge.</p>
-  
-  <a class="p-link" href="https://www.mc-groupe.com" target="_blank" rel="noopener">Découvrir Groupe MC <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/mederreg.webp" alt="Logo Mederreg" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Mederreg</h4>
-  <p class="desc">Couverture, étanchéité, plomberie et chauffage en Île-de-France depuis 2009.</p>
-  
-  <a class="p-link" href="https://mederreg.fr" target="_blank" rel="noopener">Découvrir Mederreg <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/futurservices.webp" alt="Logo Futur Services" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Futur Services</h4>
-  <p class="desc">Nettoyage industriel et tertiaire, avec plus de 36 ans d’expérience.</p>
-  
-  <a class="p-link" href="https://futur-services.fr" target="_blank" rel="noopener">Découvrir Futur Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/cme.webp" alt="Logo C.M.E" loading="lazy"></span><span class="p-tag">Partenaire technique</span></div>
-  <h4>C.M.E</h4>
-  <p class="desc">Climatisation, maintenance et électricité.</p>
-  
-  <span class="p-link disabled">Site bientôt disponible</span>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/zaloc.webp" alt="Logo Zaloc" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Zaloc</h4>
-  <p class="desc">Location de matériel événementiel : mobilier, structures, son et lumière.</p>
-  
-  <a class="p-link" href="https://www.zaloc.fr" target="_blank" rel="noopener">Découvrir Zaloc <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/braxton.webp" alt="Logo Braxton" loading="lazy"></span><span class="p-tag">Partenaire</span></div>
-  <h4>Braxton</h4>
-  <p class="desc">Société de gestion immobilière agréée par l’AMF, basée à Paris.</p>
-  
-  <a class="p-link" href="https://braxton-im.com" target="_blank" rel="noopener">Découvrir Braxton <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-<article class="p-card">
-  <div class="p-top"><span class="logo-box"><img src="assets/img/logos/marline.webp" alt="Logo Marline" loading="lazy"></span><span class="p-tag">Partenaire · Aspen</span></div>
-  <h4>Marline</h4>
-  <p class="desc">Producteur français de carburant alkylate pour petits moteurs, filiale d’Aspen.</p>
-  <p class="p-contact">Jean-François Bonin<span class="role"> · Président</span></p>
-  <a class="p-link" href="https://www.marline.fr" target="_blank" rel="noopener">Découvrir Marline <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== Nous rejoindre ===================== -->
-  <section class="section-cream section-pad" id="rejoindre" style="padding-top:20px">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow eyebrow-corse">Devenir partenaire</span>
-        <h2>Rejoignez<br><span class="accent">la loge.</span></h2>
-        <p>Recevoir vos clients au stade, renforcer vos liens avec vos équipes, rencontrer les autres entreprises du réseau : trois formules selon le nombre d’invités que vous souhaitez recevoir à chaque match.</p>
-      </div>
-      <div class="plans">
-        <div class="plan">
-          <span class="pn">Formule 2 invités</span>
-          <h3>2 <small>invités par match</small></h3>
-          <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives envoyées par e-mail</li><li>Logo sur le site de La Loge Corse</li></ul>
-          <a class="btn btn-outline" href="mailto:jeromebrigato@lalogecorse.fr?subject=Devenir%20partenaire%20-%20formule%202%20invit%C3%A9s">Nous contacter</a>
-        </div>
-        <div class="plan featured">
-          <span class="pn">Formule 4 invités</span>
-          <h3>4 <small>invités par match</small></h3>
-          <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives envoyées par e-mail</li><li>Logo et fiche partenaire sur le site</li><li>Invitations aux événements du réseau</li></ul>
-          <a class="btn btn-sky" href="mailto:jeromebrigato@lalogecorse.fr?subject=Devenir%20partenaire%20-%20formule%204%20invit%C3%A9s">Nous contacter</a>
-        </div>
-        <div class="plan">
-          <span class="pn">Formule 6 invités</span>
-          <h3>6 <small>invités par match</small></h3>
-          <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives envoyées par e-mail</li><li>Logo et fiche partenaire sur le site</li><li>Invitations aux événements du réseau</li></ul>
-          <a class="btn btn-outline" href="mailto:jeromebrigato@lalogecorse.fr?subject=Devenir%20partenaire%20-%20formule%206%20invit%C3%A9s">Nous contacter</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== Infos pratiques ===================== -->
-  <section class="section-cream section-pad" id="infos" style="padding-top:20px">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow eyebrow-navy">Le jour du match</span>
-        <h2>Infos<br><span class="accent">pratiques.</span></h2>
-      </div>
-      <div class="info-grid">
-        <div class="info">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-          <h3>Adresse</h3>
-          <p>Stade Jean-Bouin<br>20-40 avenue du Général Sarrail<br>75016 Paris</p>
-        </div>
-        <div class="info">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16"/></svg></span>
-          <h3>Entrée Porte A</h3>
-          <p>Présentez votre invitation nominative (sur téléphone ou imprimée) à l’entrée Porte A. L’heure d’accueil figure sur l’invitation.</p>
-        </div>
-        <div class="info">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M8 21l2-4M16 21l-2-4M5 11h14"/></svg></span>
-          <h3>Venir en métro</h3>
-          <p>Ligne 10, station Porte d’Auteuil, à quelques minutes à pied. Le stationnement est très limité les jours de match : privilégiez les transports en commun.</p>
-        </div>
-        <div class="info">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg></span>
-          <h3>Une question ?</h3>
-          <p>Écrivez-nous à <a href="mailto:jeromebrigato@lalogecorse.fr">jeromebrigato@lalogecorse.fr</a>.</p>
-        </div>
-      </div>
-      <div class="map-frame">
-        <iframe title="Plan d’accès au Stade Jean-Bouin" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=2.2448%2C48.8389%2C2.2568%2C48.8456&amp;layer=mapnik&amp;marker=48.84225%2C2.25280"></iframe>
-      </div>
-
-      <div class="faq">
-        <details><summary>Qui peut réserver des places dans la loge ?</summary><p>Les entreprises partenaires de La Loge Corse. Chaque partenaire inscrit ses invités pour le match de son choix, dans la limite de sa formule.</p></details>
-        <details><summary>Combien de temps à l’avance faut-il réserver ?</summary><p>Le plus tôt possible : les invitations sont préparées environ deux semaines avant chaque match, et les places de la loge sont limitées.</p></details>
-        <details><summary>Que se passe-t-il si la loge est complète ?</summary><p>Nous vous prévenons par e-mail et vous proposons un autre match ou une place si un désistement se libère.</p></details>
-        <details><summary>Mon invité ne peut plus venir, comment faire ?</summary><p>Écrivez-nous dès que possible à jeromebrigato@lalogecorse.fr avec le nom de la personne qui le remplace : une nouvelle invitation nominative lui sera envoyée.</p></details>
-      </div>
-    </div>
-  </section>
-
+<main id="top">
+<section class="hero">
+  <img class="hero-img" src="assets/img/hero.webp" alt="Illustration : supporter corse devant une côte méditerranéenne">
   <div class="wrap">
-    <div class="cta-band corse-texture">
-      <span class="eyebrow">Faire vivre La Loge Corse</span>
-      <h2>Envie de rejoindre<br>l’aventure ?</h2>
-      <p class="cta-contact">Écrivez à <a href="mailto:jeromebrigato@lalogecorse.fr">jeromebrigato@lalogecorse.fr</a></p>
-      <div class="cta-actions">
-        <a href="#rejoindre" class="btn btn-white">Devenir partenaire</a>
-        <a href="#reserver" class="btn btn-sky">Inscrire mes invités <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="hero-copy">
+      <span class="eyebrow">Benvenuti à Jean-Bouin</span>
+      <h1>La loge<br>est <em>à vous.</em></h1>
+      <p class="lead">Une loge privée, un esprit corse et treize entreprises partenaires autour d’une même table, pour le Paris FC et le Stade Français.</p>
+      <div class="row">
+        <a class="btn btn-pink" href="#calendrier">Inscrire mes invités</a>
+        <a class="btn btn-ghost" href="#table">Rencontrer les partenaires</a>
+      </div>
+    </div>
+    <div class="stats">
+      <div><b>13</b><span>partenaires</span></div>
+      <div><b>17</b><span>matchs Paris FC</span></div>
+      <div><b>13</b><span>matchs Stade Français</span></div>
+      <div><b>2 · 1</b><span>clubs · un stade</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="table-sec" id="table">
+  <div class="wrap stack">
+    <div class="intro">
+      <span class="eyebrow dark">Hospitalité · Fidélité · Convivialité · Réseau</span>
+      <h2>Treize sièges.<br>Une seule table.</h2>
+      <p>Ici, pas de rangées : on s’assoit en cercle, à la corse. Touchez un siège pour rencontrer l’entreprise qui l’occupe.</p>
+    </div>
+    <div class="table-grid">
+      <div class="round" id="round">
+        <div class="ring"></div>
+        <div class="center">
+          <span class="k">Prochain match</span>
+          <span class="big" data-next="countdown">J-?</span>
+          <span class="m"><span data-next="club"></span><br>vs <span data-next="opp"></span></span>
+          <span class="d" data-next="date"></span>
+        </div>
+      </div>
+      <div class="panel" aria-live="polite">
+        <span class="eyebrow dark" id="p-role"></span>
+        <div class="logo"><img id="p-logo" src="" alt=""></div>
+        <h3 id="p-name"></h3>
+        <p id="p-desc"></p>
+        <p class="who" id="p-who" hidden></p>
+        <div class="acts">
+          <a class="btn btn-line" id="p-page" href="#">Voir la fiche partenaire</a>
+          <button class="btn btn-line" id="p-prev" type="button" aria-label="Siège précédent">←</button>
+          <button class="btn btn-line" id="p-next" type="button" aria-label="Siège suivant">→</button>
+        </div>
       </div>
     </div>
   </div>
-  <div style="height:70px" class="section-cream"></div>
-</main>
+</section>
 
-<a href="#reserver" class="btn btn-sky sticky-book">Réserver un match <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-
-<div class="corse-rule" aria-hidden="true"></div>
-<footer class="site">
+<section class="story">
   <div class="wrap">
-    <div class="foot-top">
-      <div class="foot-brand">
-        <div class="crests">
-          <img src="assets/img/paris-fc.webp" alt="Paris FC" width="35" height="36">
-          <img src="assets/img/la-loge-corse.webp" alt="La Loge Corse" width="36" height="36" style="border-radius:6px;">
-        </div>
-        <p>La Loge Corse rassemble partenaires, invités et passionnés autour du Paris FC et du Stade Français, au Stade Jean-Bouin.</p>
-        <p class="foot-contact">Contact : <a href="mailto:jeromebrigato@lalogecorse.fr">jeromebrigato@lalogecorse.fr</a></p>
-        <div class="foot-social"><a href="https://fr.linkedin.com/showcase/la-loge-corse/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg> Suivre sur LinkedIn</a></div>
+    <div class="col">
+      <span class="eyebrow">Notre histoire</span>
+      <h2>Un bout de Corse<br>au cœur de Paris.</h2>
+      <p class="lead">La Loge Corse est née d’une idée simple : réunir, autour du sport, des chefs d’entreprise attachés à la Corse et à ses valeurs d’accueil. Chaque match à domicile devient une table ouverte où l’on reçoit clients, équipes et amis.</p>
+      <figure>
+        <img src="assets/img/jerome-brigato.webp" alt="Jérôme Brigato">
+        <figcaption>
+          <blockquote>« Convivialité, sport, Corse : la table est prête. »</blockquote>
+          <cite>Jérôme Brigato · fondateur de La Loge Corse, Kalliste Partners</cite>
+        </figcaption>
+      </figure>
+    </div>
+    <img class="photo" src="assets/img/paris-fc-jean-bouin.webp" alt="Les joueurs du Paris FC entrent sur la pelouse de Jean-Bouin devant les supporters">
+  </div>
+</section>
+
+<section class="videos" id="videos">
+  <div class="wrap stack">
+    <div class="duo">
+      <div>
+        <span class="eyebrow">La loge en images</span>
+        <h2>Bienvenue<br>à la loge.</h2>
+        <p class="lead">Quinze secondes pour découvrir l’ambiance de La Loge Corse à Jean-Bouin.</p>
       </div>
-      <div class="foot-links">
-        <div class="eyebrow">Sites officiels de nos partenaires</div>
-        <div class="foot-partner-grid">
-<a class="foot-partner-row" href="https://www.kalliste-partners.com/" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/kalliste.webp" alt="" loading="lazy"></span><span><span class="fp-name">Kalliste Partners</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://www.bme-group.com/businesses/bme-france/" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/bme.webp" alt="" loading="lazy"></span><span><span class="fp-name">BME France</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://busca.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/busca.webp" alt="" loading="lazy"></span><span><span class="fp-name">Busca</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://elydan.eu" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/elydan.webp" alt="" loading="lazy"></span><span><span class="fp-name">Elydan</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://citysecurite.com" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/citysecurite.webp" alt="" loading="lazy"></span><span><span class="fp-name">City Sécurité</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://iepro.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/iepro.webp" alt="" loading="lazy"></span><span><span class="fp-name">IE Pro</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://www.mc-groupe.com" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/groupemc.webp" alt="" loading="lazy"></span><span><span class="fp-name">Groupe MC</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://mederreg.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/mederreg.webp" alt="" loading="lazy"></span><span><span class="fp-name">Mederreg</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://futur-services.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/futurservices.webp" alt="" loading="lazy"></span><span><span class="fp-name">Futur Services</span><br><span class="fp-status">Site officiel</span></span></a>
-<span class="foot-partner-row"><span class="logo-box"><img src="assets/img/logos/cme.webp" alt="" loading="lazy"></span><span><span class="fp-name">C.M.E</span><br><span class="fp-status">Site bientôt disponible</span></span></span>
-<a class="foot-partner-row" href="https://www.zaloc.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/zaloc.webp" alt="" loading="lazy"></span><span><span class="fp-name">Zaloc</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://braxton-im.com" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/braxton.webp" alt="" loading="lazy"></span><span><span class="fp-name">Braxton</span><br><span class="fp-status">Site officiel</span></span></a>
-<a class="foot-partner-row" href="https://www.marline.fr" target="_blank" rel="noopener"><span class="logo-box"><img src="assets/img/logos/marline.webp" alt="" loading="lazy"></span><span><span class="fp-name">Marline</span><br><span class="fp-status">Site officiel</span></span></a>
+      <video class="welcome" src="assets/video/bienvenue.mp4" poster="assets/img/loge-bienvenue.webp" controls muted loop playsinline preload="none" aria-label="Vidéo : Bienvenue à la Loge Corse"></video>
+    </div>
+    <div>
+      <div class="vhead">
+        <div>
+          <span class="eyebrow">Revivre les matchs</span>
+          <h3>Résumés, buts et points presse.</h3>
+        </div>
+        <div class="tabs" id="vtabs" role="group" aria-label="Type de vidéo">
+          <button type="button" data-f="all" aria-pressed="true">Tout</button>
+          <button type="button" data-f="match" aria-pressed="false">Matchs</button>
+          <button type="button" data-f="presse" aria-pressed="false">Points presse</button>
+        </div>
+      </div>
+      <div class="vgrid" id="vgrid" aria-live="polite"></div>
+      <p class="small">Vidéos des chaînes officielles du Paris FC et du Stade Français Paris, ouvertes sur YouTube. Liste mise à jour chaque jour.</p>
+      <noscript><p class="small">Retrouvez les vidéos sur <a href="https://www.youtube.com/@ParisFC/videos">la chaîne du Paris FC</a> et <a href="https://www.youtube.com/channel/UC9HI0fd8SE_IfSaFkVKfPLA">celle du Stade Français Paris</a>.</p></noscript>
+    </div>
+  </div>
+</section>
+
+<section class="book" id="calendrier">
+  <div class="wrap stack">
+    <div class="head">
+      <div>
+        <span class="eyebrow">Réservé aux partenaires · Saison 2026/2027</span>
+        <h2>Inscrire vos invités,<br>en deux gestes.</h2>
+      </div>
+      <div class="tabs" id="ctabs" role="group" aria-label="Filtrer par club">
+        <button type="button" data-f="all" aria-pressed="true">Tous les matchs</button>
+        <button type="button" data-f="pfc" aria-pressed="false">Paris FC</button>
+        <button type="button" data-f="sf" aria-pressed="false">Stade Français</button>
+      </div>
+    </div>
+    <div class="cols">
+      <div>
+        <span class="step">1 · Choisissez votre match</span>
+        <div class="list" id="mlist"></div>
+      </div>
+      <div class="ticket">
+        <div class="up">
+          <span class="k">Votre match · <span id="t-comp"></span></span>
+          <span class="ti"><span id="t-club"></span><br><em>vs <span id="t-opp"></span></em></span>
+          <span class="da" id="t-date"></span>
+        </div>
+        <div class="down">
+          <i></i><i></i>
+          <span class="step">2 · Combien d’invités ?</span>
+          <div class="guests" id="guests" role="group" aria-label="Nombre d’invités"></div>
+          <p id="t-line"></p>
+          <a class="btn btn-navy" id="t-send" href="#">3 · Envoyer ma demande</a>
+          <p class="fine">Pour chaque invité, indiquez nom, prénom, e-mail et téléphone. Les invitations nominatives sont envoyées par e-mail après validation.</p>
         </div>
       </div>
     </div>
-    <hr>
-    <div class="foot-bottom">La Loge Corse · Stade Jean-Bouin · Saison 2026/2027</div>
-    <div class="foot-legal"><a href="mentions-legales.html">Mentions légales</a><a href="mentions-legales.html#confidentialite">Politique de confidentialité</a><a href="mailto:jeromebrigato@lalogecorse.fr">Contact</a></div>
+    <p class="small">Dates et horaires communiqués par les clubs, susceptibles d’évoluer en cours de saison. Seuls les matchs joués au Stade Jean-Bouin sont proposés.</p>
+  </div>
+</section>
+
+<section class="plans" id="rejoindre">
+  <div class="wrap stack">
+    <div class="head">
+      <span class="eyebrow">Devenir partenaire</span>
+      <h2>Votre place<br>à la table.</h2>
+      <p class="lead">Recevoir vos clients au stade, renforcer vos liens avec vos équipes, rencontrer les autres entreprises du réseau : trois formules selon le nombre d’invités par match.</p>
+    </div>
+    <div class="grid">
+      <div class="plan"><span class="n">2</span><span class="l">invités par match</span>
+        <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives par e-mail</li><li>Logo sur le site de La Loge Corse</li></ul>
+        <a href="mailto:jeromebrigato@lalogecorse.fr?subject=Formule%202%20invit%C3%A9s">Nous contacter →</a></div>
+      <div class="plan hot"><span class="n">4</span><span class="l">invités par match</span>
+        <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives par e-mail</li><li>Logo et fiche partenaire sur le site</li><li>Invitations aux événements du réseau</li></ul>
+        <a href="mailto:jeromebrigato@lalogecorse.fr?subject=Formule%204%20invit%C3%A9s">Nous contacter →</a></div>
+      <div class="plan"><span class="n">6</span><span class="l">invités par match</span>
+        <ul><li>Accès à la loge au Stade Jean-Bouin</li><li>Invitations nominatives par e-mail</li><li>Logo et fiche partenaire sur le site</li><li>Invitations aux événements du réseau</li></ul>
+        <a href="mailto:jeromebrigato@lalogecorse.fr?subject=Formule%206%20invit%C3%A9s">Nous contacter →</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="infos" id="infos">
+  <img class="band" src="assets/img/stade-jean-bouin.webp" alt="Le Stade Jean-Bouin vu de nuit">
+  <div class="wrap">
+    <div class="cols">
+      <div><span class="k">Adresse</span><p>Stade Jean-Bouin<br>20-40 avenue du Général Sarrail<br>75016 Paris</p></div>
+      <div><span class="k">Entrée Porte A</span><p>Présentez votre invitation nominative, sur téléphone ou imprimée.</p></div>
+      <div><span class="k">Venir en métro</span><p>Ligne 10, station Porte d’Auteuil. Stationnement très limité les jours de match.</p></div>
+      <div><span class="k">Une question ?</span><a href="mailto:jeromebrigato@lalogecorse.fr">jeromebrigato@lalogecorse.fr</a></div>
+    </div>
+    <div class="foot"><span>© La Loge Corse · Saison 2026/2027</span><span>Mentions légales · Politique de confidentialité</span></div>
   </div>
 </footer>
 
-<script src="assets/js/main.js" defer></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

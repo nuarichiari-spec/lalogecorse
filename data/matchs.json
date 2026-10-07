@@ -1,0 +1,212 @@
+[
+ {
+  "club": "pfc",
+  "comp": "J2",
+  "adversaire": "OGC Nice",
+  "date": "2026-08-30",
+  "heure": "15h00"
+ },
+ {
+  "club": "pfc",
+  "comp": "J4",
+  "adversaire": "Olympique Lyonnais",
+  "date": "2026-09-12",
+  "heure": "20h45"
+ },
+ {
+  "club": "pfc",
+  "comp": "J5",
+  "adversaire": "RC Strasbourg",
+  "date": "2026-09-19",
+  "heure": "17h15"
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Montpellier HR",
+  "date": "2026-10-10",
+  "heure": "14h30"
+ },
+ {
+  "club": "pfc",
+  "comp": "J7",
+  "adversaire": "Stade Rennais FC",
+  "date": "2026-10-18",
+  "heure": "17h15"
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Stade Rochelais",
+  "date": "2026-10-31",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J9",
+  "adversaire": "AS Monaco",
+  "date": "2026-11-01",
+  "heure": "17h15"
+ },
+ {
+  "club": "pfc",
+  "comp": "J11",
+  "adversaire": "Angers SCO",
+  "date": "2026-11-22",
+  "heure": "15h00"
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "RC Vannes",
+  "date": "2026-11-28",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J13",
+  "adversaire": "Le Mans FC",
+  "date": "2026-12-05",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Champions Cup",
+  "adversaire": "Northampton Saints",
+  "date": "2026-12-11",
+  "heure": "21h00"
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Stade Toulousain",
+  "date": "2026-12-19",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J15",
+  "adversaire": "Le Havre AC",
+  "date": "2027-01-02",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Castres Olympique",
+  "date": "2027-01-02",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Champions Cup",
+  "adversaire": "Cardiff Rugby",
+  "date": "2027-01-09",
+  "heure": "21h00"
+ },
+ {
+  "club": "pfc",
+  "comp": "J16",
+  "adversaire": "Toulouse FC",
+  "date": "2027-01-16",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J18",
+  "adversaire": "AJ Auxerre",
+  "date": "2027-01-30",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J20",
+  "adversaire": "ESTAC Troyes",
+  "date": "2027-02-13",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Union Bordeaux-Bègles",
+  "date": "2027-02-20",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J23",
+  "adversaire": "Stade Brestois 29",
+  "date": "2027-03-06",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J24",
+  "adversaire": "FC Lorient",
+  "date": "2027-03-13",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Section Paloise",
+  "date": "2027-03-20",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J26",
+  "adversaire": "Paris Saint-Germain",
+  "date": "2027-04-03",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "ASM Clermont",
+  "date": "2027-04-17",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J29",
+  "adversaire": "RC Lens",
+  "date": "2027-04-24",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Racing 92",
+  "date": "2027-04-24",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J31",
+  "adversaire": "LOSC Lille",
+  "date": "2027-05-08",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "RC Toulon",
+  "date": "2027-05-15",
+  "heure": ""
+ },
+ {
+  "club": "pfc",
+  "comp": "J33",
+  "adversaire": "Olympique de Marseille",
+  "date": "2027-05-22",
+  "heure": ""
+ },
+ {
+  "club": "sf",
+  "comp": "Top 14",
+  "adversaire": "Aviron Bayonnais",
+  "date": "2027-06-05",
+  "heure": ""
+ }
+]
